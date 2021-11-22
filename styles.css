@@ -1,0 +1,120 @@
+body {
+	background-image: url('images/building_steam-2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+
+.all-content {
+	display: table;
+	margin: 0 auto; 
+}
+
+.photo-container {
+	padding: 25px;
+	width: 550px;
+	margin: auto;
+	display: block;
+	
+}
+
+.main-photo img {
+	max-width: 500px;
+	height: auto;
+	margin: auto;
+	display: block; 
+}	
+
+.photo-caption p {
+	color: #FFFFFF;
+	font: "Times New Roman";
+	font-size: 12px; 
+	text-align: center;
+
+}
+
+.headline-container {
+	margin: 0 auto;
+	display: table;
+	padding-left: 100px;
+	padding-right: 100px; 
+}
+
+.headline-text {
+	display: block;
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Poppins', sans-serif; 
+	color: #FFFFFF;
+	margin: auto;
+}
+ 
+.byline-dateline-container {
+	align-items: center;
+}
+
+.byline-text {
+	color: #FFFFFF; 
+	font-family: "Times New Roman";
+	font-size: 14px;
+	text-align: center; 
+} 
+
+.dateline-text { 
+	color: #FFFFFF; 
+	font-family: "Times New Roman";
+	font-size: 14px;
+	text-align: center; 
+
+}
+
+.article-container {
+	margin: 0 auto;
+	display: table;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bott: 15px; 
+
+}
+
+
+.article-text p { 
+	color: #FFFFFF; 
+	font-size: 18 px;
+	text-align: left; 
+	padding-left: 100px;
+	padding-right: 100px;
+
+ }
+
+ .methodology { 
+	color: #FFFFFF; 
+	padding-top: 20px;
+	font-size: 18 px;
+	text-align: left; 
+	padding-left: 100px;
+	padding-right: 100px;
+ }
+
+.chart-photo {
+	max-width: 600px;
+	height: auto;
+	display: table;
+	text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+
+}
+
+.footer p {
+	color: #FFFFFF; 
+	font-size: 10px;
+	text-align: center; 
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+
+}
+	
