@@ -1,0 +1,175 @@
+body {
+	background-image: url('building_steam-2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+
+.all-content {
+	display: flex;
+	flex-direction: column;
+	margin: 5%;
+	background-color: rgb(197,199,201, 0.3);
+}
+
+.photo-container {
+	padding: 25px;
+	width: 75%;
+	height: auto;
+	margin: auto;
+
+}
+
+.main-photo img {
+	width: 50%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-direction: column; 
+}	
+
+.photo-caption p {
+	color: #FFFFFF;
+	font: "Times New Roman";
+	font-size: 12px; 
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+.headline-container {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin-left: 5%; 
+	margin-right: 5%;
+}
+
+.headline-text {
+	display: block;
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Poppins', sans-serif; 
+	color: #FFFFFF;
+	margin: auto;
+}
+ 
+.byline-dateline-container {
+	align-items: center;
+}
+
+.byline-text {
+	color: #FFFFFF; 
+	font-family: "Times New Roman";
+	font-size: 14px;
+	text-align: center; 
+} 
+
+.dateline-text { 
+	color: #FFFFFF; 
+	font-family: "Times New Roman";
+	font-size: 14px;
+	text-align: center; 
+
+}
+
+.article-container {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 15px; 
+
+}
+
+
+.article-text p { 
+	color: #FFFFFF; 
+	font-size: 18 px;
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	justify-content: center;
+
+ }
+
+ .methodology { 
+	color: #FFFFFF; 
+	padding-top: 20px;
+	font-size: 18 px;
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 5%;
+ }
+
+.chart-photo {
+	display: flex;
+	justify-content: center;
+}
+
+.chart-photo img {
+	width: 75%;
+	height: auto;
+}
+
+.footer p {
+	color: #FFFFFF; 
+	font-size: 12px;
+	text-align: center; 
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+
+}
+@media (max-width: 681px) { 
+
+.main-photo img {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	display: block; 
+}
+
+.chart-photo img {
+	width: 90%;
+	height: auto;
+	display: flex; 
+}
+
+.main-photo img {
+	width: 75%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-direction: column; 
+}	
+
+.headline-text {
+	display: block;
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Poppins', sans-serif; 
+	color: #FFFFFF;
+	margin: auto;
+}
+
+.photo-caption p {
+	color: #FFFFFF;
+	font: "Times New Roman";
+	font-size: 14px;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+
+
+
+	
+	
